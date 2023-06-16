@@ -22,7 +22,7 @@ const Mentors = [
         "bio": "Strategic Apex Legends player with a focus on team coordination and positioning.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Team Coordination", "Positioning"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -39,7 +39,7 @@ const Mentors = [
         "bio": "Analytical Apex Legends player specializing in strategic decision-making and game sense.",
         "timezone": "UTC+1",
         "skillLevel": "Advanced",
-        "expertise": ["Strategic Decision-Making", "Game Sense"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -56,7 +56,7 @@ const Mentors = [
         "bio": "Sharpshooting Apex Legends player specializing in long-range engagements and sniping.",
         "timezone": "UTC-4",
         "skillLevel": "Intermediate",
-        "expertise": ["Sniping", "Long-Range Engagements"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -90,7 +90,7 @@ const Mentors = [
         "bio": "Experienced Apex Legends player specializing in competitive gameplay and strategy.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Competitive Gameplay", "Strategy"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -107,7 +107,7 @@ const Mentors = [
         "bio": "Strategic Apex Legends player with a focus on team coordination and positioning.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Team Coordination", "Positioning"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -124,7 +124,7 @@ const Mentors = [
         "bio": "Highly skilled Apex Legends player known for exceptional aim and clutch plays.",
         "timezone": "UTC-5",
         "skillLevel": "Expert",
-        "expertise": ["Aim", "Clutch Plays"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -141,7 +141,7 @@ const Mentors = [
         "bio": "Experienced Apex Legends player with extensive knowledge of game mechanics and meta.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Game Mechanics", "Meta Knowledge"],
+        "expertise": ["Revenant Main", "Deadly Abilities"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -158,7 +158,7 @@ const Mentors = [
         "bio": "Aggressive Apex Legends player specializing in fast-paced gameplay and aggressive strategies.",
         "timezone": "UTC+1",
         "skillLevel": "Expert",
-        "expertise": ["Aggressive Gameplay", "Fast-Paced Strategies"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -175,7 +175,7 @@ const Mentors = [
         "bio": "Cunning Apex Legends player known for creative strategies and outsmarting opponents.",
         "timezone": "UTC-4",
         "skillLevel": "Intermediate",
-        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -192,7 +192,7 @@ const Mentors = [
         "bio": "Team-oriented Apex Legends player specializing in support roles and communication.",
         "timezone": "UTC-7",
         "skillLevel": "Advanced",
-        "expertise": ["Support Roles", "Communication"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -209,7 +209,7 @@ const Mentors = [
         "bio": "Masterful Apex Legends player specializing in sniper rifles and long-range precision.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Sniper Rifles", "Long-Range Precision"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -226,7 +226,7 @@ const Mentors = [
         "bio": "Dominant Apex Legends player specializing in aggressive assaults and close-quarters combat.",
         "timezone": "UTC+3",
         "skillLevel": "Expert",
-        "expertise": ["Aggressive Assaults", "Close-Quarters Combat"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -243,7 +243,7 @@ const Mentors = [
         "bio": "Strategic Apex Legends player with a focus on planning and coordinated gameplay.",
         "timezone": "UTC+2",
         "skillLevel": "Advanced",
-        "expertise": ["Strategic Planning", "Coordinated Gameplay"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -260,7 +260,7 @@ const Mentors = [
         "bio": "Analytical Apex Legends player specializing in tracking enemy movements and rotations.",
         "timezone": "UTC-5",
         "skillLevel": "Intermediate",
-        "expertise": ["Enemy Tracking", "Rotations"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -277,7 +277,7 @@ const Mentors = [
         "bio": "Highly skilled Apex Legends player with mastery across multiple legends and playstyles.",
         "timezone": "UTC-7",
         "skillLevel": "Expert",
-        "expertise": ["Diverse Legends", "Playstyles"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -294,7 +294,7 @@ const Mentors = [
         "bio": "Experienced Apex Legends player skilled at leading squads and coordinating team efforts.",
         "timezone": "UTC-4",
         "skillLevel": "Advanced",
-        "expertise": ["Squad Leadership", "Team Coordination"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "Not Available",
@@ -311,7 +311,7 @@ const Mentors = [
         "bio": "Seasoned Apex Legends player with years of experience and in-depth knowledge of the game.",
         "timezone": "UTC+1",
         "skillLevel": "Expert",
-        "expertise": ["Years of Experience", "In-Depth Knowledge"],
+        "expertise": ["Revenant Main", "Deadly Abilities"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -328,7 +328,7 @@ const Mentors = [
         "bio": "Dedicated Apex Legends player specializing in playing as Wraith and mastering her abilities.",
         "timezone": "UTC-6",
         "skillLevel": "Intermediate",
-        "expertise": ["Wraith Main", "Ability Mastery"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -345,7 +345,7 @@ const Mentors = [
         "bio": "Skilled Apex Legends player specializing in playing as Pathfinder and utilizing his grappling abilities.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Pathfinder Main", "Grappling Abilities"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -362,7 +362,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Bangalore and utilizing her smoke and explosive abilities.",
         "timezone": "UTC+3",
         "skillLevel": "Expert",
-        "expertise": ["Bangalore Main", "Smoke and Explosive Abilities"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -379,7 +379,7 @@ const Mentors = [
         "bio": "Supportive Apex Legends player specializing in playing as Lifeline and providing healing and support to the team.",
         "timezone": "UTC+2",
         "skillLevel": "Intermediate",
-        "expertise": ["Lifeline Main", "Healing and Support"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -396,7 +396,7 @@ const Mentors = [
         "bio": "Strategic Apex Legends player specializing in playing as Crypto and utilizing his surveillance and drone abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Crypto Main", "Surveillance and Drones"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -413,7 +413,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Bloodhound and tracking down enemies with their abilities.",
         "timezone": "UTC+1",
         "skillLevel": "Intermediate",
-        "expertise": ["Bloodhound Main", "Enemy Tracking"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -430,7 +430,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Gibraltar and providing protection and defensive capabilities.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Gibraltar Main", "Defense"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -447,7 +447,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Caustic and utilizing gas traps to control the battlefield.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Caustic Main", "Gas Traps"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -464,7 +464,7 @@ const Mentors = [
         "bio": "Agile Apex Legends player specializing in playing as Octane and utilizing stim and jump pad for fast and aggressive gameplay.",
         "timezone": "UTC+3",
         "skillLevel": "Expert",
-        "expertise": ["Octane Main", "Agile Gameplay"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -481,7 +481,7 @@ const Mentors = [
         "bio": "Resourceful Apex Legends player specializing in playing as Loba and utilizing her teleportation and loot abilities.",
         "timezone": "UTC+2",
         "skillLevel": "Intermediate",
-        "expertise": ["Loba Main", "Teleportation and Loot"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -498,7 +498,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Rampart and setting up powerful defenses with her abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Rampart Main", "Defenses"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -515,7 +515,7 @@ const Mentors = [
         "bio": "Gravity-defying Apex Legends player specializing in playing as Horizon and manipulating the battlefield with her abilities.",
         "timezone": "UTC+1",
         "skillLevel": "Intermediate",
-        "expertise": ["Horizon Main", "Gravity Manipulation"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -532,7 +532,7 @@ const Mentors = [
         "bio": "Explosive Apex Legends player specializing in playing as Fuse and raining down mayhem with his explosive abilities.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Fuse Main", "Explosive Abilities"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -549,7 +549,7 @@ const Mentors = [
         "bio": "Stealthy Apex Legends player specializing in playing as Wraith and manipulating space-time with her abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Wraith Main", "Space-Time Manipulation"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -566,7 +566,7 @@ const Mentors = [
         "bio": "Tracker Apex Legends player specializing in playing as Bloodhound and hunting down enemies with superior tracking skills.",
         "timezone": "UTC-8",
         "skillLevel": "Expert",
-        "expertise": ["Bloodhound Main", "Tracking Skills"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -583,7 +583,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Gibraltar and providing protection and defensive capabilities.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Gibraltar Main", "Defense"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -600,7 +600,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Caustic and utilizing gas traps to control the battlefield.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Caustic Main", "Gas Traps"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -617,7 +617,7 @@ const Mentors = [
         "bio": "Agile Apex Legends player specializing in playing as Octane and using stim and jump pads for high-speed maneuvers.",
         "timezone": "UTC-5",
         "skillLevel": "Intermediate",
-        "expertise": ["Octane Main", "Agility"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -634,7 +634,7 @@ const Mentors = [
         "bio": "Supportive Apex Legends player specializing in playing as Lifeline and providing healing and support to the team.",
         "timezone": "UTC+1",
         "skillLevel": "Intermediate",
-        "expertise": ["Lifeline Main", "Support"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -651,7 +651,7 @@ const Mentors = [
         "bio": "Versatile Apex Legends player specializing in playing as Pathfinder and using grapple and zipline abilities for mobility.",
         "timezone": "UTC-7",
         "skillLevel": "Advanced",
-        "expertise": ["Pathfinder Main", "Mobility"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "Not Available",
@@ -668,7 +668,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Rampart and setting up powerful defenses with her abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Rampart Main", "Defenses"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -685,7 +685,7 @@ const Mentors = [
         "bio": "Gravity-defying Apex Legends player specializing in playing as Horizon and manipulating the battlefield with her abilities.",
         "timezone": "UTC+1",
         "skillLevel": "Intermediate",
-        "expertise": ["Horizon Main", "Gravity Manipulation"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -702,7 +702,7 @@ const Mentors = [
         "bio": "Explosive Apex Legends player specializing in playing as Fuse and raining down chaos with his explosive ordnance.",
         "timezone": "UTC-8",
         "skillLevel": "Intermediate",
-        "expertise": ["Fuse Main", "Explosives"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -719,7 +719,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Crypto and gathering information with his drone and EMP.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Crypto Main", "Tactical Information"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -736,7 +736,7 @@ const Mentors = [
         "bio": "Sneaky Apex Legends player specializing in playing as Loba and stealing valuable loot with her teleportation bracelet.",
         "timezone": "UTC+2",
         "skillLevel": "Intermediate",
-        "expertise": ["Loba Main", "Loot Stealing"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -753,7 +753,7 @@ const Mentors = [
         "bio": "Trickster Apex Legends player specializing in playing as Mirage and bamboozling enemies with holographic decoys.",
         "timezone": "UTC+2",
         "skillLevel": "Intermediate",
-        "expertise": ["Mirage Main", "Decoy Tactics"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "12:00-16:00",
         "tue": "Not Available",
@@ -770,7 +770,7 @@ const Mentors = [
         "bio": "Sinister Apex Legends player specializing in playing as Revenant and haunting enemies with deadly abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Revenant Main", "Deadly Abilities"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -787,7 +787,7 @@ const Mentors = [
         "bio": "Aerial Apex Legends player specializing in playing as Valkyrie and dominating the skies with her jetpack and missiles.",
         "timezone": "UTC-8",
         "skillLevel": "Expert",
-        "expertise": ["Valkyrie Main", "Aerial Superiority"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -804,7 +804,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Gibraltar and providing protection and defensive capabilities.",
         "timezone": "UTC-6",
         "skillLevel": "Expert",
-        "expertise": ["Gibraltar Main", "Defense"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "14:00-18:00",
@@ -821,7 +821,7 @@ const Mentors = [
         "bio": "Tactical Apex Legends player specializing in playing as Caustic and utilizing gas traps to control the battlefield.",
         "timezone": "UTC-8",
         "skillLevel": "Advanced",
-        "expertise": ["Caustic Main", "Gas Traps"],
+        "expertise": ["Sniping", "Long-Range Engagements"],
         "availability": {
         "mon": "Not Available",
         "tue": "18:00-22:00",
@@ -838,7 +838,7 @@ const Mentors = [
         "bio": "Agile Apex Legends player specializing in playing as Octane and using stim and jump pads for high-speed maneuvers.",
         "timezone": "UTC-5",
         "skillLevel": "Intermediate",
-        "expertise": ["Octane Main", "Agility"],
+        "expertise": ["Creative Strategies", "Outsmarting Opponents"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -855,7 +855,7 @@ const Mentors = [
         "bio": "Supportive Apex Legends player specializing in playing as Lifeline and providing healing and support to the team.",
         "timezone": "UTC+1",
         "skillLevel": "Intermediate",
-        "expertise": ["Lifeline Main", "Support"],
+        "expertise": ["Enemy Tracking", "Rotations"],
         "availability": {
         "mon": "Not Available",
         "tue": "14:00-18:00",
@@ -872,7 +872,7 @@ const Mentors = [
         "bio": "Versatile Apex Legends player specializing in playing as Pathfinder and using grapple and zipline abilities for mobility.",
         "timezone": "UTC-7",
         "skillLevel": "Advanced",
-        "expertise": ["Pathfinder Main", "Mobility"],
+        "expertise": ["Bloodhound Main", "Enemy Tracking"],
         "availability": {
         "mon": "16:00-20:00",
         "tue": "Not Available",
@@ -889,7 +889,7 @@ const Mentors = [
         "bio": "Defensive Apex Legends player specializing in playing as Rampart and setting up powerful defenses with her abilities.",
         "timezone": "UTC-5",
         "skillLevel": "Advanced",
-        "expertise": ["Rampart Main", "Defenses"],
+        "expertise": ["Competitive Gameplay", "Strategy"],
         "availability": {
         "mon": "18:00-22:00",
         "tue": "12:00-16:00",
@@ -901,5 +901,10 @@ const Mentors = [
         }
     }
 ]
-
+const experties = [];
+Mentors.map((mentor) => {
+    experties.push(mentor.experties.map((item) => {
+        return item;
+    }))
+})
 export default Mentors;
