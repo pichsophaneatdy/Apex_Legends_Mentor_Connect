@@ -2,53 +2,24 @@
 
 .filter {
   display: flex;
+  flex-direction: column;
 
   &__option {
-    cursor: pointer;
-    background-color: lightgrey;
     margin: 1rem;
     width: 20rem;
     background-color: black;
     color: white;
+
+    cursor: pointer;
+    &:hover {
+      color: $apexRed;
+    }
   }
   &__dropdown {
-    display: none;
     width: 20rem;
-    position: absolute;
-    z-index: 1;
     background-color: black;
-  }
-
-  &__option--1 {
-    &:hover .filter__dropdown--1 {
-      display: flex;
-      flex-direction: column;
-      color: white;
-    }
-    &:hover {
-      color: $apexRed;
-    }
-  }
-
-  &__option--2 {
-    &:hover .filter__dropdown--2 {
-      display: flex;
-      flex-direction: column;
-      color: white;
-    }
-    &:hover {
-      color: $apexRed;
-    }
-  }
-
-  &__option--3 {
-    &:hover .filter__dropdown--3 {
-      display: flex;
-      flex-direction: column;
-      color: white;
-    }
-    &:hover {
-      color: $apexRed;
+    &--hidden {
+      display: none;
     }
   }
 
@@ -61,6 +32,9 @@
 
   &__element {
     color: white;
+    &--active {
+      color: $apexRed;
+    }
     &:hover {
       color: $apexRed;
     }
