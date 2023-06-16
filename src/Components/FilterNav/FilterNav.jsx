@@ -80,41 +80,31 @@ function FilterNav({
         >
           <p
             className={
-              filterMode === "Pubs"
+              filterMode === "public games"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleModeClick("Pubs")}
+            onClick={() => handleModeClick("public games")}
           >
-            Pubs
+            Public Games
           </p>
           <p
             className={
-              filterMode === "Comp"
+              filterMode === "ranked"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleModeClick("Comp")}
-          >
-            Comp
-          </p>
-          <p
-            className={
-              filterMode === "Ranked"
-                ? "filter__element filter__element--active"
-                : "filter__element"
-            }
-            onClick={() => handleModeClick("Ranked")}
+            onClick={() => handleModeClick("ranked")}
           >
             Ranked
           </p>
           <p
             className={
-              filterMode === "General Gameplay"
+              filterMode === "general gameplay"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleModeClick("General Gameplay")}
+            onClick={() => handleModeClick("general gameplay")}
           >
             General Gameplay
           </p>
@@ -140,41 +130,41 @@ function FilterNav({
         >
           <p
             className={
-              filterSkill === "Bronze"
+              filterSkill === "bronze"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleSkillClick("Bronze")}
+            onClick={() => handleSkillClick("bronze")}
           >
             Bronze
           </p>
           <p
             className={
-              filterSkill === "Silver"
+              filterSkill === "silver"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleSkillClick("Silver")}
+            onClick={() => handleSkillClick("silver")}
           >
             Silver
           </p>
           <p
             className={
-              filterSkill === "Gold"
+              filterSkill === "gold"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleSkillClick("Gold")}
+            onClick={() => handleSkillClick("gold")}
           >
             Gold
           </p>
           <p
             className={
-              filterSkill === "Platinum+"
+              filterSkill === "platinum+"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleSkillClick("Platinum+")}
+            onClick={() => handleSkillClick("platinum+")}
           >
             Platinum+
           </p>
@@ -202,51 +192,51 @@ function FilterNav({
         >
           <p
             className={
-              filterCharacter === "Assault"
+              filterCharacter === "assault"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleCharacterClick("Assault")}
+            onClick={() => handleCharacterClick("assault")}
           >
             Assault
           </p>
           <p
             className={
-              filterCharacter === "Recon"
+              filterCharacter === "recon"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleCharacterClick("Recon")}
+            onClick={() => handleCharacterClick("recon")}
           >
             Recon
           </p>
           <p
             className={
-              filterCharacter === "Support"
+              filterCharacter === "support"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleCharacterClick("Support")}
+            onClick={() => handleCharacterClick("support")}
           >
             Support
           </p>
           <p
             className={
-              filterCharacter === "Skirmisher"
+              filterCharacter === "skirmisher"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleCharacterClick("Skirmisher")}
+            onClick={() => handleCharacterClick("skirmisher")}
           >
             Skirmisher
           </p>
           <p
             className={
-              filterCharacter === "Controller"
+              filterCharacter === "controller"
                 ? "filter__element filter__element--active"
                 : "filter__element"
             }
-            onClick={() => handleCharacterClick("Controller")}
+            onClick={() => handleCharacterClick("controller")}
           >
             Controller
           </p>
