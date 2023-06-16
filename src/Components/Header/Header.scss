@@ -1,0 +1,45 @@
+@use "../../styles/global" as *;
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    padding: 0.5rem 7rem;
+    font-family: "DukeFill";
+    &__logo {
+        width: 50px;
+    }
+    &__col{
+        display: flex;
+    }
+    &__cheveron{
+        width: 9px;
+        margin-left: 0.2rem;
+    }
+    &__nav {
+        display: flex;
+        gap: 1.5rem;
+        margin-left: 3rem;
+    }
+    &__nav__link {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        font-size: 1.3rem;
+    }
+    &__btn {
+        background-color: $apexRed;
+        border: none;
+        color: white;
+        font-family: "TTLakeRegular";
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    };
+    &__btn__icon{
+        width: 15px;
+        margin-left: 0.4rem;
+    }
+}

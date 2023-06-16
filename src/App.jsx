@@ -7,6 +7,8 @@ import LoginPage from "./Pages/LoginPage/LoginPage";
 import PreferencePage from "./Pages/PreferencePage/PreferencePage";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import MentorModal from "./Pages/MentorModal/MentorModal";
+// Component
+import Header from "./Components/Header/Header";
 function App() {
   const [filterMode, setFilterMode] = useState();
   const [filterSkill, setFilterSkill] = useState();
@@ -28,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route>
             <Route path="/" element={<HomePage/>}/>
