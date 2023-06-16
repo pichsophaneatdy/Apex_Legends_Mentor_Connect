@@ -1,7 +1,12 @@
-import "./App.scss";
 import FilterNav from "./Components/FilterNav/FilterNav";
 import { useState } from "react";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Page
+import HomePage from "./Pages/HomePage/HomePage";
+import LoginPage from "./Pages/LoginPage/LoginPage";
+import PreferencePage from "./Pages/PreferencePage/PreferencePage";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import MentorModal from "./Pages/MentorModal/MentorModal";
 function App() {
   const [filterMode, setFilterMode] = useState();
   const [filterSkill, setFilterSkill] = useState();
@@ -22,11 +27,20 @@ function App() {
 
   return (
     <div className="App">
-      <FilterNav
-        handleModeClick={handleModeClick}
-        handleSkillClick={handleSkillClick}
-        handleCharacterClick={handleCharacterClick}
-      />
+      <BrowserRouter>
+        <Routes>
+          <Route>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/login" element={<LoginPage />}/>
+            <Route path="/preferences" element={<PreferencePage/>} />
+            <Route path="/dashboard" element={<Dashboard         
+                                                    handleSkillClick={handleSkillClick}
+                                                    handleCharacterClick={handleCharacterClick}
+                                                    handleModeClick={handleModeClick}/> } />
+            <Route path="/mentor/:id" element={<MentorModal />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
