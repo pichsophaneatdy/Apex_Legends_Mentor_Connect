@@ -6,6 +6,7 @@ const Dashboard = ({handleSkillClick, handleCharacterClick, handleModeClick}) =>
         <div>
             Dashboard
             <FilterNav />
+            
 
         </div>
     )
