@@ -4,6 +4,7 @@ import eaLogo from "../../Assets/Icons/Electronic-Arts-Logo.svg.png";
 import avatar from "../../Assets/Icons/cea82eb3-a532-4fe5-9d0a-f978116c8386.avif";
 import checkIcon from "../../Assets/Icons/login.png";
 import { Link } from 'react-router-dom';
+
 const LoginPage = () => {
     return (
         <div className="login">

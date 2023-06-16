@@ -3,6 +3,7 @@ import "./Card.scss";
 import bookmark from "../../Assets/Icons/carbon_bookmark.png";
 import star from "../../Assets/Icons/bi_star-fill.png";
 import people from "../../Assets/Icons/pepicons-pencil_people.png";
+import { useNavigate } from 'react-router-dom';
 const mentors = [{"name":"ApexWarrior","profile":"https://media.contentapi.ea.com/content/dam/apex-legends/common/gaiden-event/vtuber-featured-img.jpg.adapt.crop191x100.628p.jpg","bio":"Experienced Apex Legends player specializing in competitive gameplay and strategy.","timezone":"UTC-6","availability":{"mon":"16:00-20:00","tue":"14:00-18:00","wed":"Not Available","thurs":"18:00-22:00","fri":"12:00-16:00","sat":"Not Available","sun":"10:00-14:00"},"characters":["Controller"],"skillLevel":["Bronze","Silver"],"mode":["Comp"]}, {"name":"ApexWarrior","profile":"https://media.contentapi.ea.com/content/dam/apex-legends/common/gaiden-event/vtuber-featured-img.jpg.adapt.crop191x100.628p.jpg","bio":"Experienced Apex Legends player specializing in competitive gameplay and strategy.","timezone":"UTC-6","availability":{"mon":"16:00-20:00","tue":"14:00-18:00","wed":"Not Available","thurs":"18:00-22:00","fri":"12:00-16:00","sat":"Not Available","sun":"10:00-14:00"},"characters":["Controller"],"skillLevel":["Bronze","Silver"],"mode":["Comp"]}, {"name":"ApexWarrior","profile":"https://media.contentapi.ea.com/content/dam/apex-legends/common/gaiden-event/vtuber-featured-img.jpg.adapt.crop191x100.628p.jpg","bio":"Experienced Apex Legends player specializing in competitive gameplay and strategy.","timezone":"UTC-6","availability":{"mon":"16:00-20:00","tue":"14:00-18:00","wed":"Not Available","thurs":"18:00-22:00","fri":"12:00-16:00","sat":"Not Available","sun":"10:00-14:00"},"characters":["Controller"],"skillLevel":["Bronze","Silver"],"mode":["Comp"]}, {"name":"ApexWarrior","profile":"https://media.contentapi.ea.com/content/dam/apex-legends/common/gaiden-event/vtuber-featured-img.jpg.adapt.crop191x100.628p.jpg","bio":"Experienced Apex Legends player specializing in competitive gameplay and strategy.","timezone":"UTC-6","availability":{"mon":"16:00-20:00","tue":"14:00-18:00","wed":"Not Available","thurs":"18:00-22:00","fri":"12:00-16:00","sat":"Not Available","sun":"10:00-14:00"},"characters":["Controller"],"skillLevel":["Bronze","Silver"],"mode":["Comp"]}];
 const renderStars = (ratings) => {
         const stars = [];
@@ -12,11 +13,12 @@ const renderStars = (ratings) => {
         }
         return stars;
     }
-const Card = () => {
+const Card = ({ mentors, filterMode, filterSkill, filterCharacter }) => {
+    const navigate = useNavigate();
     return (
         mentors.map((mentor) => {
             return (
-                <div className="card">
+                <div className="card" onClick={()=>navigate("/mentor/1")}>
                     <img src={mentor.profile} className="card__img"/>
                     <div className="card__row1">
                         <p className="card__username">{mentor.name}</p>

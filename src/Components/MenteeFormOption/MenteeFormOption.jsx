@@ -1,7 +1,7 @@
 
 const MenteeFormOption = ({ selectValue, filterValue, setFilterValue, imgSrc, classSelect }) => {
   
-  const handleClick = (event)=>{
+  const handleClick = ()=>{
     console.log(selectValue);
     console.log(filterValue);
     setFilterValue(selectValue);
