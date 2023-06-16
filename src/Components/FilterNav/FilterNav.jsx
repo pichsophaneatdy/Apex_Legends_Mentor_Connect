@@ -1,5 +1,4 @@
 import "./FilterNav.scss";
-import ChevronRight from "../../Assets/Icons/chevron_right-24px-grey.svg";
 import ChevronUp from "../../Assets/Icons/chevron-up.png";
 import { useState } from "react";
 
