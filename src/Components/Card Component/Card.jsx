@@ -12,7 +12,7 @@ const renderStars = (ratings) => {
         }
         return stars;
     }
-const Card = () => {
+const Card = ({ mentors, filterMode, filterSkill, filterCharacter }) => {
     return (
         mentors.map((mentor) => {
             return (
