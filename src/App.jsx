@@ -33,13 +33,22 @@ function App() {
         <Header />
         <Routes>
           <Route>
-            <Route path="/" element={<HomePage/>}/>
-            <Route path="/login" element={<LoginPage />}/>
-            <Route path="/preferences" element={<PreferencePage/>} />
-            <Route path="/dashboard" element={<Dashboard         
-                                                    handleSkillClick={handleSkillClick}
-                                                    handleCharacterClick={handleCharacterClick}
-                                                    handleModeClick={handleModeClick}/> } />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/preferences" element={<PreferencePage />} />
+            <Route
+              path="/dashboard"
+              element={
+                <Dashboard
+                  handleSkillClick={handleSkillClick}
+                  handleCharacterClick={handleCharacterClick}
+                  handleModeClick={handleModeClick}
+                  filterMode={filterMode}
+                  filterSkill={filterSkill}
+                  filterCharacter={filterCharacter}
+                />
+              }
+            />
             <Route path="/mentor/:id" element={<MentorModal />} />
           </Route>
         </Routes>
