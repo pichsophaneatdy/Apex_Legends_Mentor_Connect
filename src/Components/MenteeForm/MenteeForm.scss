@@ -1,0 +1,74 @@
+.mentee-form {
+  padding: 3.75rem;
+  // background-image: url("../../Assets/bg.png");
+  background-repeat: repeat-y;
+  &__preference-title{
+    text-align: center;
+    padding: 3rem 0 1rem;
+  }
+  &__value-options{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    
+  }
+  &__character-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  &__value-select{
+    border-radius: 5px;
+    border: .0625rem solid black;
+    width: 17.6875rem;
+    height: 18.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    // background-color: white;
+    &:hover{
+      background-color: rgba(151, 145, 145, 0.146);
+    }
+  }
+  &__character-select{
+    border-radius: 5px;
+    border: .0625rem solid black;
+    width: 24.25rem;
+    height: 18.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    // background-color: white;
+    &:hover{
+      background-color: rgba(151, 145, 145, 0.146);
+    }
+  }
+  &__value-logo {
+    width: 7rem;
+    height: 7rem;
+  }
+  &__value-title {
+    text-transform: uppercase;
+  }
+  &__active-value {
+    box-shadow:  0 0 5px 1px rgb(255, 0, 0);
+  }
+  &__submit {
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+  }
+  &__button-wrapper{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+}

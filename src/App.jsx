@@ -49,6 +49,31 @@ function App() {
                 />
               }
             />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route
+              path="/preferences"
+              element={
+                <PreferencePage
+                  filterMode={filterMode}
+                  setFilterMode={setFilterMode}
+                  filterSkill={filterSkill}
+                  setFilterSkill={setFilterSkill}
+                  filterCharacter={filterCharacter}
+                  setFilterCharacter={setFilterCharacter}
+                />
+              }
+            />
+            <Route
+              path="/dashboard"
+              element={
+                <Dashboard
+                  handleSkillClick={handleSkillClick}
+                  handleCharacterClick={handleCharacterClick}
+                  handleModeClick={handleModeClick}
+                />
+              }
+            />
             <Route path="/mentor/:id" element={<MentorModal />} />
           </Route>
         </Routes>

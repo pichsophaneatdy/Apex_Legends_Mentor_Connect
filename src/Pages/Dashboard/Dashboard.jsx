@@ -9,6 +9,7 @@ const Dashboard = ({
     filterMode,
     filterSkill,
     filterCharacter,
+
 }) => {
     return (
         <div className="dashboard">
@@ -32,3 +33,4 @@ const Dashboard = ({
 };
 
 export default Dashboard;
+
