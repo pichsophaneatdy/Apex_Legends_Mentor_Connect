@@ -1,0 +1,41 @@
+@use "../../styles/global" as *;
+
+.mentor {
+    padding: 6rem 10rem;
+    display: flex;
+    gap: 2rem;
+    &__left {
+    }
+    &__title{
+        font-family: "DukeFill";
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+    }
+    &__right {
+        width: 70%;
+    }
+    &__upload {
+        display: flex;
+        margin-top: 4rem;
+
+        gap: 2rem;
+    }
+}
+.upload__btn {
+    background-color: $apexRed;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+.upload__title {
+    font-family: "TTLakeRegular";
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.schedule__btn {
+    background-color: green;
+    cursor: pointer;
+}
