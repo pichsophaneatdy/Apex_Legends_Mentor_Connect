@@ -1,5 +1,6 @@
 import "./FilterNav.scss";
 import ChevronRight from "../../Assets/Icons/chevron_right-24px-grey.svg";
+import ChevronUp from "../../Assets/Icons/chevron-up.png";
 import { useState } from "react";
 
 function FilterNav({
@@ -63,7 +64,13 @@ function FilterNav({
       <section className="filter__option">
         <section className="filter__info" onClick={handleShowMode}>
           <h1 className="filter__text">GAME MODE</h1>
-          <img className="filter__icon" src={ChevronRight} alt="Drop" />
+          <img
+            className={
+              showMode ? "filter__icon filter__icon--dropdown" : "filter__icon"
+            }
+            src={ChevronUp}
+            alt="Drop"
+          />
         </section>
         <section
           className={
@@ -117,7 +124,13 @@ function FilterNav({
       <section className="filter__option">
         <section className="filter__info" onClick={handleShowSkill}>
           <h1 className="filter__text">SKILL LEVEL</h1>{" "}
-          <img className="filter__icon" src={ChevronRight} alt="Drop" />
+          <img
+            className={
+              showSkill ? "filter__icon filter__icon--dropdown" : "filter__icon"
+            }
+            src={ChevronUp}
+            alt="Drop"
+          />
         </section>
         <section
           className={
@@ -171,7 +184,15 @@ function FilterNav({
       <section className="filter__option">
         <section className="filter__info" onClick={handleShowCharacter}>
           <h1 className="filter__text">CHARACTER</h1>{" "}
-          <img className="filter__icon" src={ChevronRight} alt="Drop" />
+          <img
+            className={
+              showCharacter
+                ? "filter__icon filter__icon--dropdown"
+                : "filter__icon"
+            }
+            src={ChevronUp}
+            alt="Drop"
+          />
         </section>
         <section
           className={
