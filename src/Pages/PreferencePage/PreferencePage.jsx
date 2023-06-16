@@ -4,7 +4,7 @@ import MenteeForm from '../../Components/MenteeForm/MenteeForm'
 
 const PreferencePage = ({ filterMode, setFilterMode, filterSkill, setFilterSkill, filterCharacter, setFilterCharacter }) => {
     return (
-        <div>PreferencePage
+        <div>
             <MenteeForm 
                 filterMode={filterMode}
                 setFilterMode={setFilterMode}
