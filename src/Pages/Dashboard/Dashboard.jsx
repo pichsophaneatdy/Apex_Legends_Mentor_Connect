@@ -21,7 +21,11 @@ const Dashboard = ({
                 filterCharacter={filterCharacter}
             />
             <div className="cardList">
-                <Card />
+                <h1 className="cardList__title">{"Coaches based on your preferences".toUpperCase()}</h1>
+                <div className="cardList__wrapper">
+                    <Card />
+                </div>
+                
             </div>
         </div>
     );
