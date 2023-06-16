@@ -8,8 +8,24 @@
     color: white;
     padding: 0.5rem 7rem;
     font-family: "DukeFill";
+    &__logo-wrapper{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    &__title-link{
+        text-decoration: none;
+    }
+    &__title2 {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
     &__logo {
         width: 50px;
+    }
+    &__logo2 {
+        width: 80px;
     }
     &__col{
         display: flex;
@@ -21,7 +37,7 @@
     &__nav {
         display: flex;
         gap: 1.5rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
     &__nav__link {
         display: flex;

@@ -1,0 +1,71 @@
+@use "../../styles/global" as *;
+
+.login {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+        width: 40px;
+        margin-bottom: 1rem;
+    }
+    &__avatar {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    &__title {
+        font-family: "DukeFill";
+        font-size: 2.5rem;
+        letter-spacing: 0.1rem;
+    }
+    &__username {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem 0;
+        border: solid 1.5px silver;
+        padding: 0.7rem 1rem;
+        border-radius: 0.2rem;
+        align-items: center;
+    }
+    &__check {
+        width: 30px;
+        height: 30px;
+    }
+    &__name{
+        font-family: "TTLakeRegular";
+    }
+    &__id {
+        font-family: "TTLakeRegular";
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__form-control {
+        margin: 1.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input {
+        margin-bottom: 1rem;
+        width: 400px;
+        padding: 0.5rem 0.7rem;
+        border-radius: 0.2rem;
+        border: solid 1px silver;
+        font-family: "TTLakeRegular";
+    }
+    &__btn {
+        width: 150px;
+        background-color: $apexRed;
+        color: white;
+        border: none;
+        padding: 0.5rem 0;
+        font-family: "TTLakeRegular";
+        margin-top: 0.5rem;
+    }
+}
