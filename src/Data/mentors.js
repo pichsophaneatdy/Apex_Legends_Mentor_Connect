@@ -885,7 +885,7 @@ const Mentors = [
 //     }))
 // })
 
-const gameMode = ["Pubs", "Comp", "Ranked", "General Gamplay"];
+const gameMode = ["Pubs", "Comp", "Ranked", "General Gameplay"];
 const skillLevel = ["Bronze", "Silver", "Gold", "Diamond+"];
 const characters = [
   "Assault",
