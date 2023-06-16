@@ -1,0 +1,120 @@
+@use "../../styles/global" as *;
+
+.homepage {
+    &__hero {
+        padding: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+        background-image: url("../../Assets/Icons/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        box-shadow: inset 0 0 0 1000px rgba(50, 50, 50, 0.6);
+    }
+    &__logo{ 
+        width: 130px;
+    }
+    &__title {
+        font-size: 5.5rem;
+        letter-spacing: 0.2rem;
+        font-family: "DukeFill";
+        margin-bottom: 1rem;
+    }
+    &__text {
+        font-size: 1.5rem;
+        font-family: "TTLakeBold";
+
+    }
+    &__btn {
+        margin-top: 1.5rem;
+        background-color: $apexRed;
+        font-size: 1.1rem;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.2rem;
+    }
+    &__section1 {
+        margin: 4rem 10rem;
+        display: flex;
+    }
+}
+.section1 {
+    &__img-wrapper {
+        width: 70%;
+        height:400px;
+        background-size: cover;
+        background-image: url("../../Assets/Icons/andre-hunter-ugjPgy2BQug-unsplash.jpg");
+    }
+    &__content {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+    &__title {
+        font-family: "DukeFill";
+        letter-spacing: 0.2rem;
+        font-size: 3rem;
+    }
+    &__btn {
+        padding: 0.7rem 0;
+        width: 150px;
+        border:none;
+        border-radius: 0.1rem;
+        font-weight: bold;
+    }
+    &__text {
+        padding: 1.5rem 0;
+        font-family: "TTLakeRegular";
+    }
+}
+.badge{
+    padding: 2rem 10rem 4rem 10rem;
+    text-align: center;
+    &__title {
+        font-family: "DukeFill";
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+    }
+    &__text {
+        font-family: "TTLakeBold";
+        font-size: 1.2rem;
+        padding: 1.5rem 0;
+    }
+    &__btn{
+        background-color: $apexRed;
+        color: white;
+        font-family: "TTLakeRegular";
+        border: none;
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.badgeIcon {
+    width: 100px;
+}
+.section2 {
+    color: white;
+    padding: 5rem 10rem;
+    background-image: url("../../Assets/Icons/sam-pak-X6QffKLwyoQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(50, 50, 50, 0.4);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

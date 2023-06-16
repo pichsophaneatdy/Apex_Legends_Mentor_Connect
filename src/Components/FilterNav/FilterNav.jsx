@@ -10,7 +10,7 @@ function FilterNav(props) {
   // Server
 
   const gameMode = ["Pubs", "Comp", "Ranked", "General Gamplay"];
-  const skillLevel = ["Beginner", "Intermediate", "Advanced"];
+  const skillLevel = ["Bronze", "Silver", "Gold", "Diamond+"];
   const characters = [
     "Assault",
     "Recon",
