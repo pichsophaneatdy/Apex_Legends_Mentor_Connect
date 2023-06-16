@@ -20,18 +20,7 @@ const MenteeForm = ({ filterMode, setFilterMode, filterSkill, setFilterSkill, fi
   
   const navigate = useNavigate();
 
-  /*
-    const gameMode = ["Pubs", "Comp", "Ranked", "General Gamplay"];
-    const skillLevel = ["Bronze", "Silver", "Gold", "Diamond+"];
-    const characters = [
-      "Assault",
-      "Recon",
-      "Support",
-      "Skirmisher",
-      "Controller",
-  */
   
-  let imgSrc;
 
   return (
     <div className="mentee-form">
