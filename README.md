@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+![Apex Mentor Connect Logo White (1) Small](https://github.com/pichsophaneatdy/Apex_Legends_Mentor_Connect/assets/95105372/66a2ecbd-23d6-4919-a70a-3428edbcf687)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Apex Legends Mentor Connect is a web application built during a 24-hour hackathon in collaboration with Electronic Arts. The project focuses on enhancing gamers' interaction, specifically in one of the most popular game Apex Legends. Apex Legends Mentor Connect, integrated into the Apex Legends website, aims to connect mentors with mentees, providing guidance and support to new players in order to help them enhance their skills quickly.
 
-### `npm start`
+![Screen Capture 025 - React App - localhost](https://github.com/pichsophaneatdy/Apex_Legends_Mentor_Connect/assets/95105372/b66dc7be-2d1d-4e81-a6fe-2ca987115c56)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project brings together a diverse team of web developers, UX designer, and data scientists to create a comprehensive solution. Our web developers utilize React to build the web app, while our UX designer ensures an intuitive and user-friendly interface. Our data scientists provide valuable insights by analyzing data that demonstrates the need for assistance among Apex Legends players.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screen Capture 026 - React App - localhost](https://github.com/pichsophaneatdy/Apex_Legends_Mentor_Connect/assets/95105372/917279a7-67d0-4baa-aa8c-00822c261631)
 
-### `npm test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Mentor-Mentee Connection:** The web app facilitates connections between experienced players (mentors) and new players (mentees), enabling mentorship and skill development.
 
-### `npm run build`
+- **Enhanced Skill Development:** Mentees can benefit from personalized guidance, tips, and strategies provided by mentors, helping them navigate the complexity of the Apex Legends game more effectively.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Verified Coaches:** Mentors receive a verified badge, ensuring mentees that they are receiving guidance from trusted and experienced players.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Incentives for Mentors:** To incentivize mentors, they are rewarded with free skins and in-game currency as a token of appreciation for their dedication and support.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Data-driven Approach
 
-### `npm run eject`
+To support the development of the web app, our team of data scientists has conducted extensive research and analysis. The data collected indicates a significant demand for assistance among Apex Legends players, highlighting the need for a platform like Apex Legends Mentor Connect.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+By leveraging this data, we aim to create a solution that addresses the specific pain points and challenges faced by new players in the game. The insights gained from the data analysis form the foundation of our web app's features and functionalities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Collaboration and Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project follows a collaborative development approach using Agile methodology. We have adopted Agile principles to ensure effective teamwork, continuous improvement, and efficient delivery of features. Our collaboration process includes the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Sprints:** We work in short sprints, typically one to two weeks long, to plan, develop, and review specific features and functionalities. This iterative approach allows us to deliver value incrementally and gather feedback along the way.
 
-## Learn More
+- **Daily Standups:** We conduct daily standup meetings to sync up, discuss progress, and identify any blockers. This helps us stay aligned as a team and address any challenges or dependencies promptly.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **User Stories and Backlog:** We maintain a backlog of user stories, representing features and tasks that need to be implemented. These user stories are prioritized based on their value and complexity, ensuring that we work on the most critical and feasible items first.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Collaborative Tools:** We utilize collaborative tools such as Git, GitHub, and project management platforms (e.g., Trello, Jira) to track progress, manage tasks, and facilitate seamless communication among team members.
 
-### Code Splitting
+## Installation and Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To set up Apex Legends Mentor Connect locally, follow these steps:
 
-### Analyzing the Bundle Size
+1. Clone the repository: `git clone https://github.com/your-username/apex-legends-mentor-connect.git`
+2. Navigate to the project directory: `cd apex-legends-mentor-connect`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Access the web app in your browser at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Feedback and Support
 
-### Making a Progressive Web App
+We value your feedback and suggestions. If you encounter any issues, have ideas for improvement, or want to get in touch with the team, please open an issue in the [GitHub repository](https://github.com/your-username/apex-legends-mentor-connect/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
